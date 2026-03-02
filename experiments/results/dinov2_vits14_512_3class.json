@@ -1,0 +1,54 @@
+{
+  "run_id": "dinov2_vits14_512_3class",
+  "model": "dinov2_vits14",
+  "resolution": 512,
+  "task": "3class",
+  "num_classes": 3,
+  "paradigm": "self_supervised",
+  "train_mode": "linear",
+  "batch_size": 16,
+  "epochs_run": 13,
+  "best_val_acc": 0.9778,
+  "test_accuracy": 0.9556,
+  "macro_f1": 0.93,
+  "weighted_f1": 0.9551,
+  "confusion_matrix": [
+    [
+      18,
+      0,
+      4
+    ],
+    [
+      0,
+      51,
+      0
+    ],
+    [
+      3,
+      1,
+      103
+    ]
+  ],
+  "per_class": {
+    "Figure": {
+      "precision": 0.8571,
+      "recall": 0.8182,
+      "f1": 0.8372,
+      "support": 22.0
+    },
+    "FlowerBird": {
+      "precision": 0.9808,
+      "recall": 1.0,
+      "f1": 0.9903,
+      "support": 51.0
+    },
+    "Landscape": {
+      "precision": 0.9626,
+      "recall": 0.9626,
+      "f1": 0.9626,
+      "support": 107.0
+    }
+  },
+  "train_time_sec": 686.2,
+  "timestamp": "2026-02-28T05:43:59.630789"
+}

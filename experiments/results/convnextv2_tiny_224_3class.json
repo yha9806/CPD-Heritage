@@ -1,0 +1,54 @@
+{
+  "run_id": "convnextv2_tiny_224_3class",
+  "model": "convnextv2_tiny",
+  "resolution": 224,
+  "task": "3class",
+  "num_classes": 3,
+  "paradigm": "modern_cnn",
+  "train_mode": "finetune",
+  "batch_size": 24,
+  "epochs_run": 21,
+  "best_val_acc": 0.9667,
+  "test_accuracy": 0.9556,
+  "macro_f1": 0.941,
+  "weighted_f1": 0.9552,
+  "confusion_matrix": [
+    [
+      19,
+      0,
+      3
+    ],
+    [
+      1,
+      48,
+      2
+    ],
+    [
+      0,
+      2,
+      105
+    ]
+  ],
+  "per_class": {
+    "Figure": {
+      "precision": 0.95,
+      "recall": 0.8636,
+      "f1": 0.9048,
+      "support": 22.0
+    },
+    "FlowerBird": {
+      "precision": 0.96,
+      "recall": 0.9412,
+      "f1": 0.9505,
+      "support": 51.0
+    },
+    "Landscape": {
+      "precision": 0.9545,
+      "recall": 0.9813,
+      "f1": 0.9677,
+      "support": 107.0
+    }
+  },
+  "train_time_sec": 638.4,
+  "timestamp": "2026-02-28T09:20:19.364541"
+}

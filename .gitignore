@@ -1,0 +1,42 @@
+# Checkpoints (large model weights, not redistributed)
+experiments/checkpoints/
+experiments/checkpoints_pre_dedup/
+*.pt
+*.pth
+*.ckpt
+
+# Grad-CAM figures (large, generated locally)
+experiments/figures/gradcam/
+
+# Logs
+*.log
+experiments/runner.log
+experiments/train.log
+experiments/train_dedup_log.txt
+
+# Pre-dedup intermediates
+experiments/data/*_pre_dedup*
+experiments/results/*_pre_dedup*
+experiments/results_pre_dedup/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,54 @@
+{
+  "run_id": "swinv2_tiny_224_3class",
+  "model": "swinv2_tiny",
+  "resolution": 224,
+  "task": "3class",
+  "num_classes": 3,
+  "paradigm": "hier_vit",
+  "train_mode": "finetune",
+  "batch_size": 24,
+  "epochs_run": 24,
+  "best_val_acc": 0.9222,
+  "test_accuracy": 0.9278,
+  "macro_f1": 0.8766,
+  "weighted_f1": 0.9225,
+  "confusion_matrix": [
+    [
+      13,
+      3,
+      6
+    ],
+    [
+      0,
+      48,
+      3
+    ],
+    [
+      0,
+      1,
+      106
+    ]
+  ],
+  "per_class": {
+    "Figure": {
+      "precision": 1.0,
+      "recall": 0.5909,
+      "f1": 0.7429,
+      "support": 22.0
+    },
+    "FlowerBird": {
+      "precision": 0.9231,
+      "recall": 0.9412,
+      "f1": 0.932,
+      "support": 51.0
+    },
+    "Landscape": {
+      "precision": 0.9217,
+      "recall": 0.9907,
+      "f1": 0.955,
+      "support": 107.0
+    }
+  },
+  "train_time_sec": 551.3,
+  "timestamp": "2026-03-01T12:49:57.295053"
+}

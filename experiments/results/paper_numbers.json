@@ -1,0 +1,281 @@
+{
+  "total_files": 3335,
+  "usable_images": 1797,
+  "n_classes_3": 3,
+  "n_classes_fine": 7,
+  "split_train": 1437,
+  "split_val": 180,
+  "split_test": 180,
+  "landscape_pct": 59.6,
+  "flowerbird_pct": 28.4,
+  "figure_pct": 12.0,
+  "dynasty_distribution": {
+    "清": 899,
+    "明": 490,
+    "宋": 266,
+    "元": 55,
+    "明清": 30,
+    "唐": 27,
+    "五代后蜀": 12,
+    "五代": 2,
+    "齐": 2
+  },
+  "song_qing_pct": 96.8,
+  "best_3class_acc": 96.7,
+  "best_3class_model": "ConvNeXt V2-Tiny",
+  "best_3class_resolution": 512,
+  "best_3class_f1": 94.7,
+  "best_3class_per_class": {
+    "Figure": {
+      "precision": 0.9474,
+      "recall": 0.8182,
+      "f1": 0.878,
+      "support": 22.0
+    },
+    "FlowerBird": {
+      "precision": 1.0,
+      "recall": 0.9804,
+      "f1": 0.9901,
+      "support": 51.0
+    },
+    "Landscape": {
+      "precision": 0.955,
+      "recall": 0.9907,
+      "f1": 0.9725,
+      "support": 107.0
+    }
+  },
+  "best_fine_acc": 81.7,
+  "best_fine_model": "Swin V2-Tiny",
+  "best_fine_resolution": 1024,
+  "best_fine_f1": 73.2,
+  "best_fine_per_class": {
+    "Gongbi-Figure": {
+      "precision": 0.7143,
+      "recall": 0.8824,
+      "f1": 0.7895,
+      "support": 17.0
+    },
+    "Gongbi-FlowerBird": {
+      "precision": 0.88,
+      "recall": 0.9167,
+      "f1": 0.898,
+      "support": 24.0
+    },
+    "Ink-Landscape": {
+      "precision": 0.8113,
+      "recall": 0.8431,
+      "f1": 0.8269,
+      "support": 51.0
+    },
+    "LightOchre-Landscape": {
+      "precision": 0.8364,
+      "recall": 0.8214,
+      "f1": 0.8288,
+      "support": 56.0
+    },
+    "Mogu-FlowerBird": {
+      "precision": 0.8333,
+      "recall": 0.8824,
+      "f1": 0.8571,
+      "support": 17.0
+    },
+    "Xieyi-Figure": {
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.3333,
+      "support": 5.0
+    },
+    "Xieyi-FlowerBird": {
+      "precision": 0.7143,
+      "recall": 0.5,
+      "f1": 0.5882,
+      "support": 10.0
+    }
+  },
+  "res_improvement_3class": {
+    "per_model": [
+      {
+        "model": "efficientnet_b0",
+        "224_to_512": 7.8,
+        "512_to_1024": -0.5,
+        "224_to_1024": 7.2
+      },
+      {
+        "model": "dinov2_vits14",
+        "224_to_512": 1.7,
+        "512_to_1024": -0.6,
+        "224_to_1024": 1.1
+      },
+      {
+        "model": "convnextv2_tiny",
+        "224_to_512": 1.1,
+        "512_to_1024": -0.6,
+        "224_to_1024": 0.5
+      },
+      {
+        "model": "resnet50",
+        "224_to_512": 1.7,
+        "512_to_1024": -1.1,
+        "224_to_1024": 0.6
+      },
+      {
+        "model": "vit_base_16",
+        "224_to_512": -2.2,
+        "512_to_1024": 0.6,
+        "224_to_1024": -1.7
+      },
+      {
+        "model": "swinv2_tiny",
+        "224_to_512": 3.3,
+        "512_to_1024": -1.1,
+        "224_to_1024": 2.2
+      }
+    ],
+    "avg_224_to_512_pp": 2.2,
+    "avg_512_to_1024_pp": -0.6
+  },
+  "res_improvement_fine": {
+    "per_model": [
+      {
+        "model": "efficientnet_b0",
+        "224_to_512": 10.6,
+        "512_to_1024": -2.8,
+        "224_to_1024": 7.8
+      },
+      {
+        "model": "dinov2_vits14",
+        "224_to_512": 3.3,
+        "512_to_1024": 1.7,
+        "224_to_1024": 5.0
+      },
+      {
+        "model": "convnextv2_tiny",
+        "224_to_512": -1.1,
+        "512_to_1024": 3.3,
+        "224_to_1024": 2.2
+      },
+      {
+        "model": "resnet50",
+        "224_to_512": 2.2,
+        "512_to_1024": -3.9,
+        "224_to_1024": -1.7
+      },
+      {
+        "model": "vit_base_16",
+        "224_to_512": 2.2,
+        "512_to_1024": -4.5,
+        "224_to_1024": -2.2
+      },
+      {
+        "model": "swinv2_tiny",
+        "224_to_512": 2.8,
+        "512_to_1024": 0.6,
+        "224_to_1024": 3.3
+      }
+    ],
+    "avg_224_to_512_pp": 3.3,
+    "avg_512_to_1024_pp": -0.9
+  },
+  "paradigm_3class": {
+    "CNN": {
+      "mean": 94.3,
+      "max": 96.7,
+      "min": 88.3
+    },
+    "SSL": {
+      "mean": 94.8,
+      "max": 95.6,
+      "min": 93.9
+    },
+    "ViT": {
+      "mean": 93.9,
+      "max": 96.1,
+      "min": 92.2
+    }
+  },
+  "paradigm_fine": {
+    "CNN": {
+      "mean": 74.3,
+      "max": 79.4,
+      "min": 66.1
+    },
+    "SSL": {
+      "mean": 67.2,
+      "max": 69.4,
+      "min": 64.4
+    },
+    "ViT": {
+      "mean": 78.5,
+      "max": 81.7,
+      "min": 74.4
+    }
+  },
+  "acc_matrix_3class": {
+    "efficientnet_b0": {
+      "224": 88.3,
+      "512": 96.1,
+      "1024": 95.6
+    },
+    "dinov2_vits14": {
+      "224": 93.9,
+      "512": 95.6,
+      "1024": 95.0
+    },
+    "convnextv2_tiny": {
+      "224": 95.6,
+      "512": 96.7,
+      "1024": 96.1
+    },
+    "resnet50": {
+      "224": 92.8,
+      "512": 94.4,
+      "1024": 93.3
+    },
+    "vit_base_16": {
+      "224": 94.4,
+      "512": 92.2,
+      "1024": 92.8
+    },
+    "swinv2_tiny": {
+      "224": 92.8,
+      "512": 96.1,
+      "1024": 95.0
+    }
+  },
+  "acc_matrix_fine": {
+    "efficientnet_b0": {
+      "224": 66.1,
+      "512": 76.7,
+      "1024": 73.9
+    },
+    "dinov2_vits14": {
+      "224": 64.4,
+      "512": 67.8,
+      "1024": 69.4
+    },
+    "convnextv2_tiny": {
+      "224": 77.2,
+      "512": 76.1,
+      "1024": 79.4
+    },
+    "resnet50": {
+      "224": 72.8,
+      "512": 75.0,
+      "1024": 71.1
+    },
+    "vit_base_16": {
+      "224": 76.7,
+      "512": 78.9,
+      "1024": 74.4
+    },
+    "swinv2_tiny": {
+      "224": 78.3,
+      "512": 81.1,
+      "1024": 81.7
+    }
+  },
+  "total_train_time_hours": 44.7,
+  "num_completed_runs": 36,
+  "num_total_runs": 36
+}

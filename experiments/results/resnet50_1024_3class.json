@@ -1,0 +1,54 @@
+{
+  "run_id": "resnet50_1024_3class",
+  "model": "resnet50",
+  "resolution": 1024,
+  "task": "3class",
+  "num_classes": 3,
+  "paradigm": "sup_cnn",
+  "train_mode": "finetune",
+  "batch_size": 2,
+  "epochs_run": 23,
+  "best_val_acc": 0.9556,
+  "test_accuracy": 0.9333,
+  "macro_f1": 0.9066,
+  "weighted_f1": 0.9323,
+  "confusion_matrix": [
+    [
+      17,
+      1,
+      4
+    ],
+    [
+      0,
+      48,
+      3
+    ],
+    [
+      2,
+      2,
+      103
+    ]
+  ],
+  "per_class": {
+    "Figure": {
+      "precision": 0.8947,
+      "recall": 0.7727,
+      "f1": 0.8293,
+      "support": 22.0
+    },
+    "FlowerBird": {
+      "precision": 0.9412,
+      "recall": 0.9412,
+      "f1": 0.9412,
+      "support": 51.0
+    },
+    "Landscape": {
+      "precision": 0.9364,
+      "recall": 0.9626,
+      "f1": 0.9493,
+      "support": 107.0
+    }
+  },
+  "train_time_sec": 6181.0,
+  "timestamp": "2026-02-28T18:32:58.796574"
+}

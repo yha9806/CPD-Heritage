@@ -1,0 +1,16 @@
+{
+  "category_3": {
+    "Landscape": 0.5595794392523364,
+    "FlowerBird": 1.1740196078431373,
+    "Figure": 2.76878612716763
+  },
+  "category_fine": {
+    "LightOchre-Landscape": 0.4561904761904762,
+    "Ink-Landscape": 0.5056298381421535,
+    "Gongbi-FlowerBird": 1.0581737849779087,
+    "Mogu-FlowerBird": 1.5319829424307037,
+    "Gongbi-Figure": 1.5670665212649946,
+    "Xieyi-FlowerBird": 2.5660714285714286,
+    "Xieyi-Figure": 4.887755102040816
+  }
+}

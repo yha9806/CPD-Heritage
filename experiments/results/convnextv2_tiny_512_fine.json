@@ -1,0 +1,126 @@
+{
+  "run_id": "convnextv2_tiny_512_fine",
+  "model": "convnextv2_tiny",
+  "resolution": 512,
+  "task": "fine",
+  "num_classes": 7,
+  "paradigm": "modern_cnn",
+  "train_mode": "finetune",
+  "batch_size": 6,
+  "epochs_run": 18,
+  "best_val_acc": 0.8556,
+  "test_accuracy": 0.7611,
+  "macro_f1": 0.7175,
+  "weighted_f1": 0.7621,
+  "confusion_matrix": [
+    [
+      14,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      18,
+      0,
+      1,
+      3,
+      0,
+      2
+    ],
+    [
+      1,
+      0,
+      41,
+      9,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      11,
+      44,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      11,
+      0,
+      4
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      7
+    ]
+  ],
+  "per_class": {
+    "Gongbi-Figure": {
+      "precision": 0.8235,
+      "recall": 0.8235,
+      "f1": 0.8235,
+      "support": 17.0
+    },
+    "Gongbi-FlowerBird": {
+      "precision": 0.9,
+      "recall": 0.75,
+      "f1": 0.8182,
+      "support": 24.0
+    },
+    "Ink-Landscape": {
+      "precision": 0.7193,
+      "recall": 0.8039,
+      "f1": 0.7593,
+      "support": 51.0
+    },
+    "LightOchre-Landscape": {
+      "precision": 0.8148,
+      "recall": 0.7857,
+      "f1": 0.8,
+      "support": 56.0
+    },
+    "Mogu-FlowerBird": {
+      "precision": 0.6875,
+      "recall": 0.6471,
+      "f1": 0.6667,
+      "support": 17.0
+    },
+    "Xieyi-Figure": {
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714,
+      "support": 5.0
+    },
+    "Xieyi-FlowerBird": {
+      "precision": 0.5,
+      "recall": 0.7,
+      "f1": 0.5833,
+      "support": 10.0
+    }
+  },
+  "train_time_sec": 1725.8,
+  "timestamp": "2026-02-28T10:39:57.720369"
+}

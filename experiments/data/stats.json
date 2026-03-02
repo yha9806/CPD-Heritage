@@ -1,0 +1,46 @@
+{
+  "total_files": 3335,
+  "parsed_before_dedup": 2119,
+  "duplicates_removed": 322,
+  "unique_paintings": 1797,
+  "skipped": {
+    "excluded_keyword": 246,
+    "unparseable": 237,
+    "ch_prefix": 733
+  },
+  "n_classes_3": 3,
+  "n_classes_fine": 7,
+  "class_3_distribution": {
+    "Landscape": 1071,
+    "FlowerBird": 510,
+    "Figure": 216
+  },
+  "class_3_percentages": {
+    "Landscape": 59.6,
+    "FlowerBird": 28.4,
+    "Figure": 12.0
+  },
+  "class_fine_distribution": {
+    "LightOchre-Landscape": 563,
+    "Ink-Landscape": 508,
+    "Gongbi-FlowerBird": 242,
+    "Mogu-FlowerBird": 168,
+    "Gongbi-Figure": 164,
+    "Xieyi-FlowerBird": 100,
+    "Xieyi-Figure": 52
+  },
+  "split_train": 1437,
+  "split_val": 180,
+  "split_test": 180,
+  "dynasty_distribution": {
+    "清": 899,
+    "明": 490,
+    "宋": 266,
+    "元": 55,
+    "明清": 30,
+    "唐": 27,
+    "五代后蜀": 12,
+    "五代": 2,
+    "齐": 2
+  }
+}

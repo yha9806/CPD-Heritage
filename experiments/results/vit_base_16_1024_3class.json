@@ -1,0 +1,54 @@
+{
+  "run_id": "vit_base_16_1024_3class",
+  "model": "vit_base_16",
+  "resolution": 1024,
+  "task": "3class",
+  "num_classes": 3,
+  "paradigm": "sup_vit",
+  "train_mode": "finetune",
+  "batch_size": 1,
+  "epochs_run": 20,
+  "best_val_acc": 0.9778,
+  "test_accuracy": 0.9278,
+  "macro_f1": 0.8946,
+  "weighted_f1": 0.9252,
+  "confusion_matrix": [
+    [
+      15,
+      2,
+      5
+    ],
+    [
+      0,
+      48,
+      3
+    ],
+    [
+      0,
+      3,
+      104
+    ]
+  ],
+  "per_class": {
+    "Figure": {
+      "precision": 1.0,
+      "recall": 0.6818,
+      "f1": 0.8108,
+      "support": 22.0
+    },
+    "FlowerBird": {
+      "precision": 0.9057,
+      "recall": 0.9412,
+      "f1": 0.9231,
+      "support": 51.0
+    },
+    "Landscape": {
+      "precision": 0.9286,
+      "recall": 0.972,
+      "f1": 0.9498,
+      "support": 107.0
+    }
+  },
+  "train_time_sec": 15050.7,
+  "timestamp": "2026-03-01T06:27:04.140754"
+}

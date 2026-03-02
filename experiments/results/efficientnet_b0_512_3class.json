@@ -1,0 +1,54 @@
+{
+  "run_id": "efficientnet_b0_512_3class",
+  "model": "efficientnet_b0",
+  "resolution": 512,
+  "task": "3class",
+  "num_classes": 3,
+  "paradigm": "sup_cnn",
+  "train_mode": "finetune",
+  "batch_size": 12,
+  "epochs_run": 24,
+  "best_val_acc": 0.9556,
+  "test_accuracy": 0.9611,
+  "macro_f1": 0.9488,
+  "weighted_f1": 0.9611,
+  "confusion_matrix": [
+    [
+      20,
+      0,
+      2
+    ],
+    [
+      0,
+      48,
+      3
+    ],
+    [
+      2,
+      0,
+      105
+    ]
+  ],
+  "per_class": {
+    "Figure": {
+      "precision": 0.9091,
+      "recall": 0.9091,
+      "f1": 0.9091,
+      "support": 22.0
+    },
+    "FlowerBird": {
+      "precision": 1.0,
+      "recall": 0.9412,
+      "f1": 0.9697,
+      "support": 51.0
+    },
+    "Landscape": {
+      "precision": 0.9545,
+      "recall": 0.9813,
+      "f1": 0.9677,
+      "support": 107.0
+    }
+  },
+  "train_time_sec": 1518.8,
+  "timestamp": "2026-02-27T23:26:37.895575"
+}
