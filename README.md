@@ -2,9 +2,11 @@
 
 **Chinese Painting Dataset — Heritage Classification Benchmark**
 
-A benchmark for fine-grained classification of traditional Chinese painting techniques, submitted to ACM Journal on Computing and Cultural Heritage (JOCCH) Visual Heritage 2026 Special Issue.
+Experiment code for **CPSR (Chinese Painting Semantic Resource)**, published in *ACM Journal on Computing and Cultural Heritage* (JOCCH), Visual Heritage 2026 Special Issue.
 
-> **Note:** This repository is under double-blind review. Author information is withheld.
+Paper: [Chinese Painting Semantic Resource for Resolution-Aware Digitisation and Structured Heritage Access](https://doi.org/10.1145/3842674) (DOI: 10.1145/3842674)
+
+> **Note:** This repository is named `CPD-Heritage` for historical reasons; the resource is called CPSR in the published paper.
 
 ---
 
@@ -112,12 +114,16 @@ Dataset images are not redistributed here due to copyright. See paper for detail
 ## Citation
 
 ```bibtex
-@article{anonymous2026cpd,
-  title={Chinese Painting Dataset: A Heritage Classification Benchmark},
-  author={Anonymous},
-  journal={ACM Journal on Computing and Cultural Heritage},
-  year={2026},
-  note={Under review}
+@article{yu2026cpsr,
+  title   = {Chinese Painting Semantic Resource for Resolution-Aware Digitisation and Structured Heritage Access},
+  author  = {Yu, Haorui and Xu, Jiao and Yang, Tingting and Yang, Ziyue and Yi, Qiufeng},
+  journal = {Journal on Computing and Cultural Heritage},
+  publisher = {Association for Computing Machinery},
+  year    = {2026},
+  month   = aug,
+  issn    = {1556-4711},
+  doi     = {10.1145/3842674},
+  url     = {https://doi.org/10.1145/3842674}
 }
 ```
 
